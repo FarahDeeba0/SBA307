@@ -1,0 +1,350 @@
+
+
+/* ------------------------------------------------[Desktop] */
+
+@media (max-width: 1600px) {
+    body{
+        background-color: white;
+       }
+       /* .menu{
+        display:none;
+       } */
+       .searchicon{
+        display: none;
+       }
+       .otherbuttons{
+        display: block;
+        display: flex;
+        text-align: center;
+        gap: 30px;
+       }
+       .textonimage{
+          font-size: 4em;
+       }
+}
+
+
+
+
+/* ------------------------------------------------[Ipad] */
+@media (max-width: 880px) {
+    body{
+        background-color: lightblue;
+    }
+       /* .navTag{
+        display: none;
+       } */
+       .menu{
+         display: block;
+       }
+       .searchicon{
+        display: block;
+       }
+       .otherbuttons{
+        display: none;
+       }
+       .textonimage{
+        font-size: 2em;
+     }
+     .lists{
+      display: none;
+  }
+
+      
+}
+
+
+
+
+
+
+/* ------------------------------------------------[Mobile] */
+
+@media (max-width: 580px) {
+    body{
+        background-color: lightpink;
+    }
+    .searchicon{
+        display: block;
+       }
+    .otherbuttons{
+        display: none;
+    }
+    .lists{
+        display: none;
+    }
+    .textonimage{
+      font-size: 1.5em;
+   }
+}
+
+
+
+/* container */
+
+
+.navContainer{
+    background-image: url(https://64.media.tumblr.com/09707c924260de2f69d576378ccc2dc7/tumblr_inline_mou1woZ9AK1s1w9gx.gif);
+    color: white;
+    /* border:solid blue; */
+    border-width:.2px;
+    height:10vh;
+    /* margin:0px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    padding: 10px;
+}
+.tagContainer{
+    border: solid white;
+    background-color:lightblue;
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    text-shadow: 0px 7px 4px rgba(241, 195, 234, 0.97);
+    font-size: 20px;
+
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    margin-left: 8em;
+
+
+    /* border: solid white; */
+    /* padding-left: 5%; */
+    /* /* display: flex; */
+    /* align-items: center; */
+
+}
+/* .menu{
+    width: 30%;
+    padding: auto;
+} */
+.searchicon{
+    /* border: solid white; */
+    width: 20%;
+    margin-left: 60%;
+}
+.otherbuttons{
+    border: solid white;
+    background-color:lightblue;
+    border-radius: 10px;
+    padding: 5px;
+    /* border: solid white; */
+    /* display: flex;
+    text-align: center;
+    gap: 30px; */
+    /* margin-left:10p; */
+}
+body{
+    font-family: fantasy;
+    font-weight: bold;
+}
+.mainimage{
+    height: auto;
+    max-width: 100%;
+}
+.maincontainer {
+    border: solid white;
+    position: relative;
+    /* width: 50%; */
+    text-align: center;
+    height: auto;
+    max-width: 100%;
+  }
+  .textonimage {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    /* font-size: 60px; */
+    font-weight: bold;
+    height: auto;
+    max-width: 100%;
+    text-shadow: 0px 7px 4px rgba(208,113,173,0.97);
+
+  }
+.lists{
+    /* border: solid white; */
+    /* background-color: lightpink; */
+    /* background-image: url(https://64.media.tumblr.com/09707c924260de2f69d576378ccc2dc7/tumblr_inline_mou1woZ9AK1s1w9gx.gif); */
+    /* display: flex; */
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+    border-radius: 20px;
+    padding: 40px;
+    height: auto;
+    max-width: 100%;
+  }
+  /* #locations{
+    border-radius: 10px;
+  } */
+  label, .button{
+    white-space: pre;
+  }
+  .button{
+    padding: 10px;
+    color: #fff;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    border: solid white;
+    border-radius: 10px;
+    background-color: rgb(81, 174, 186);
+    font-size: 20px;
+  }
+  .button:hover {
+    background-color: #c797eb;
+  }
+  .searchicontwo{
+    width: 18px;
+  }
+  /* Dropdown Button */
+.dropbtn {
+  border-radius: 10px;
+  padding: 5px;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: lightpink;
+}
+.loginbtn{
+  border-radius: 10px;
+  padding: 5px;
+}
+.loginbtn:hover{
+  background-color: lightpink;
+}
+@keyframes slidein{
+    from {
+      margin-left: 100%;
+      width: 100%;
+    }
+    to {
+      margin-left: -100%;
+      width: 100%;
+    }
+
+}
+.volunteer{
+  animation-duration: 30s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  padding: 10px;
+  border: solid lightpink;
+  border-radius: 10px;
+  background-color: lightpink;
+  font-size: 25px;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.Loginone{
+  padding: 250px;
+  text-shadow: 0px 7px 4px rgba(208,113,173,0.97);
+  color: white;
+  background-image: url(https://i.pinimg.com/originals/d0/bf/c7/d0bfc76da6de38f91bcec23efe85082a.gif);
+  background-size: 100vw;
+  font-size: 20px;
+}
+.Memberwelcome{
+  animation-duration: 2s;
+  animation-name: slideintwo;
+  animation-iteration-count: infinite;
+  padding: 5px;
+  /* border: solid lightpink; */
+  border-radius: 10px;
+  background-color: lightpink;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bolder;
+
+}
+
+@keyframes slideintwo{
+  0%   {background-color: lightpink;}
+  25%  {background-color: lightskyblue;}
+  50%  {background-color: lightblue;}
+  100% {background-color: lightpink;}
+}
+.Registeration{
+  text-shadow: 0px 7px 4px rgba(8, 65, 115, 0.97);
+  background-image: url(https://i.pinimg.com/originals/d2/b6/9e/d2b69efc778692f2a259bfd6baa622b9.gif);
+  background-size: 100vw;
+  color: white;
+  padding: 50px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.Submit{
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: fantasy;
+}
+.Submit:hover{
+  background-color: lightpink;}
+
+
+.table{
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  padding: 30px;
+  /* text-align: left; */
+  border: solid snow;
+  border-radius: 10px;
+  background-color: plum;
+  /* background-image: url(https://i.pinimg.com/originals/3f/3f/bd/3f3fbdde2668206a62af37a951671591.gif);
+  background-size: 100vw; */
+  }
+  th, td {
+    padding: 15px;
+    text-align: left;
+    border: solid white;
+  }
+  .newsletter{
+    border: solid lightpink;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    text-shadow: 0px 7px 4px rgba(100, 4, 65, 0.97);
+    background-image: url(https://i.pinimg.com/originals/ce/31/0c/ce310c2f68850080fdcd49f5275e8416.gif);
+  }
