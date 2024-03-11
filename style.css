@@ -2,7 +2,7 @@
 
 /* ------------------------------------------------[Desktop] */
 
-@media (max-width: 1600px) {
+@media (max-width: 5000px) {
     body{
         background-color: white;
        }
@@ -19,7 +19,7 @@
         gap: 30px;
        }
        .textonimage{
-          font-size: 4em;
+          font-size: 6em;
        }
 }
 
@@ -44,7 +44,7 @@
         display: none;
        }
        .textonimage{
-        font-size: 2em;
+        font-size: 3em;
      }
      .lists{
       display: none;
@@ -330,9 +330,11 @@ body{
   /* text-align: left; */
   border: solid snow;
   border-radius: 10px;
-  background-color: plum;
-  /* background-image: url(https://i.pinimg.com/originals/3f/3f/bd/3f3fbdde2668206a62af37a951671591.gif);
-  background-size: 100vw; */
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  background-image: url(https://selzy.com/en/blog/wp-content/uploads/2022/03/email-gif-1200.gif);
+  background-size: 100vw;
+  font-weight: bolder;
   }
   th, td {
     padding: 15px;
