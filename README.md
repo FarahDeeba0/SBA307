@@ -1,4 +1,5 @@
 Pet Adoption Website (Assignment)
+
 Welcome to my Pet Adoption Website! This simple and user-friendly website was created as part of an assignment. Built with HTML and CSS, my goal is to connect loving homes with furry friends in need.
 
 Contributing
