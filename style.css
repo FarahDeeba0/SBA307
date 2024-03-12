@@ -2,7 +2,7 @@
 
 /* ------------------------------------------------[Desktop] */
 
-@media (max-width: 5000px) {
+@media (max-width: 4000px) {
     body{
         background-color: white;
        }
@@ -37,10 +37,16 @@
        .menu{
          display: block;
        }
-       .searchicon{
+       /* .searchicon{
         display: block;
+       } */
+     /* .otherbuttons{
+        display: none;
+       } */
+       .dropbtn{
+        display: none;
        }
-       .otherbuttons{
+       .About{
         display: none;
        }
        .textonimage{
@@ -64,12 +70,21 @@
     body{
         background-color: lightpink;
     }
-    .searchicon{
+    /* .searchicon{
         display: block;
        }
     .otherbuttons{
         display: none;
-    }
+    } */
+    .dropbtn{
+      display: none;
+     }
+     .About{
+      display: none;
+     }
+     .Adoption{
+      display: none;
+     }
     .lists{
         display: none;
     }
